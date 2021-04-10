@@ -1,0 +1,100 @@
+.navbar-container {
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 90px;
+    z-index: 90;
+    position: fixed;
+    box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.2);
+    background: #0d101e;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fafafa;
+}
+
+.navbar-container h2 {
+    margin-left: 20px;
+    background: #0d101e;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-input {
+    width: 550px;
+    outline: none;
+    border: none;
+    margin-top: 5px;
+    background: #202330;
+    box-shadow: 0 10px 30px -15px rgba(0, 0, 0, 0.4);
+    border: 3px solid rgba(0,151,251,0.25);
+    padding: 7px 15px;
+    border-radius: 5px;
+    transition: 0.3s ease;
+    font-size: 1.3rem;
+    color: #d3d2d2;
+}
+
+.navbar-input .icon {
+    background: #202330;
+}
+
+.navbar-input:focus-within {
+    background-color: transparent;
+    border: 3px solid #73c4fa;
+    box-shadow: 0px 4px 20px rgba(0,151,251,0.25);
+}
+
+.navbar-input:focus-within .navbar-search {
+    background: transparent;
+}
+
+.navbar-input:focus-within .icon {
+    background: transparent;
+}
+
+.linker {
+    background: #0d101e;
+    text-decoration: none;
+}
+
+.navbar-search {
+    width: 550px;
+    outline: none;
+    border: none;
+    background: #202330;
+    box-shadow: 0 10px 30px -15px rgba(0, 0, 0, 0.4);
+    padding: 7px 15px;
+    border-radius: 5px;
+    transition: 0.3s ease;
+    font-size: 1.1rem;
+    color: #fafafa;
+}
+
+.sub-container {
+    background: #0d101e;
+}
+
+.sub-container .navbar-btn{
+    margin: 20px;
+    padding: 10px 20px;
+    color: #fafafa;
+    outline: none;
+    border: none;
+    box-shadow: 0 10px 30px -15px rgba(0, 0, 0, 0.4);
+    transition: 0.5s ease;
+    border: 3px solid rgba(0,151,251,0.25);
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 4px;
+}
+
+.sub-container .navbar-btn:active {
+    transform: scale(0.9);
+    background: transparent;
+    border: 3px solid #73c4fa;
+    box-shadow: 0px 4px 20px rgba(0,151,251,0.25);
+}

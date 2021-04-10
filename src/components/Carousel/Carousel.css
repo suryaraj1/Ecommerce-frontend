@@ -1,0 +1,26 @@
+.container {
+    position: relative;
+    top: 160px;
+}
+
+.img-container {
+    display: flex;
+    transition: 0.3s ease;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    cursor: pointer;
+    width: 90%;
+    border-radius: 4px;
+    box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.2);
+}
+
+.dishonored,
+.fc,
+.destiny,
+.fifa,
+.watch-dogs {
+    height: 260px;
+}
